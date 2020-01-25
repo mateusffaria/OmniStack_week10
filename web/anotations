@@ -1,0 +1,10 @@
+Always import 'react' when we use html in our component.
+
+three things importants to know:
+Component - It's a function that returns a html whith or not CSS ans Javascript content. It's not recomended have two or more components in same file. In resume: It's a isolated block of HTML, CSS and JS which doesn't interfere in the application
+
+Property - Information who father component pass to son component.
+
+State - Information maintained by component (remember: Immutability)
+
+!!! create treatment for exceptions ands create validations for form inputs !!!!

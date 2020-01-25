@@ -1,0 +1,51 @@
+API = application programming interface, it's an apllication without graphics interface
+Restful = Patterns,norms and methods to build our app.
+JSON = JavaScript object anotation
+The backend needs to have the same "language" of front-end
+
+
+!!Promise and async in JS!!
+!! PWA !!
+
+
+Steps to create a backend react app:
+Choose the directory, create a new folder with the name of project, inside of this folder create a new folder called "backend", inside of then execute on terminal yarn init -y (that command will avoid  questions not relevant for now about the project)
+after open the package.json on the vs code.
+
+yarn add express, this framework will help us to create and manipulate the routes of our app.
+
+yarn add nodemon -D, this "-D" means that framework will just work on dev environment.
+
+HTTP methods: GET, POST, PUT, DELETE
+
+Paramters types:
+
+Query params: almost the time just used in method GET, so, when do I user query params?
+When we want to do a search in the page and the query go to the get params, and filter, order, paginaion.
+request.query
+
+Route params: almost the time used in PUT and DELETE methods, because in those methods we just wanna to delete one item, or edit one person or something else (identify one resource in edit or delete).
+request.params
+
+Body params:
+Most used in POST and PUT, imagine the situation when we want to create a new user, users can have name, email, password, etc... So, it's much information and we need to pass through the body of our request (Data to create or update an registry).
+
+MongoDB - Database non-relational
+
+yarn add mongoose - framework to acess mongodb
+
+In cloud.mongodb we need to create a cluster for the users will be able to acess our database, to do that we click on database access and select the option of 'write and read acess', after we click on network access and "add ip adress" and click on allow access from anywhere because we're working on development enviroment.
+
+And finally we click on clusters and connect your application and copy the string on Connection String only 
+mongodb+srv://omnistack:<password>@cluster0-bjtnk.mongodb.net/test?retryWrites=true&w=majority
+We replace the <username> and <password> for the name and password we created before, and the "test" are the name of our database, so, we can change this name to week10 for example
+the string should be like that:
+mongodb+srv://omnistack:omnistack@cluster0-bjtnk.mongodb.net/week10?retryWrites=true&w=majority
+
+yarn add axios - framework to call others API'S like github
+
+yarn create react-app web - after implemented the buisiness rule we create a front-end page using react.
+
+yarn add cors - By default our application in node doesn't permit acces from another port, so, we need to install a dependency cors
+
+yarn add socket.io - Dependency of real time refreshing

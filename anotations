@@ -1,0 +1,7 @@
+yarn global add expo-cli - install expo dependencies for mobile applications
+
+run this command on terminal
+export PATH="$(yarn global bin):$PATH"
+or add in path enviroment variable of your shell
+
+expo init mobile - 

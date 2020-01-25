@@ -1,0 +1,16 @@
+need install expo before.
+yarn add react-navigation-stack - command for navigation on react-native
+
+after end of install above, insert this command on terminal:
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context 
+
+expo install react-native-maps - mapview of smartphone
+expo install expo-location - location of smatphone
+expo install react-native-webview - navigating pages, like redirect to another external page.
+
+yarn add socket.io-client - after install socket.io in backend, instal on front-end mobile
+
+oficial documentation:
+
+https://reactnavigation.org/docs/en/getting-started.html
+https://docs.expo.io/versions/v36.0.0/sdk/map-view/
